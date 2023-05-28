@@ -1,0 +1,69 @@
+@import url('partials/_variables.scss');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url('https://megaone.acrothemes.com/skin-doctor/img/clear-face-banner-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.title{
+  
+margin-top:80px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   .step1{
+    display: flex;
+    justify-content: space-between;
+    
+   }
+  
+}
+.step1{
+
+    img{
+        height: 5vh;
+        display: flex;
+        align-items: center;
+    }
+background-color:$step1-bg-color;
+width: 60%;
+height: 70px;
+    .list1{
+        width: 120%;
+        display: flex;
+        gap: 50px;
+        list-style-type: none;
+     align-items: center;
+    }
+    a{
+        color:$a-color;
+        text-decoration: none;
+    }
+}
+.step1{
+    a:hover{
+        color:$a-hover;
+    }
+}
+.step2{
+    padding-right: 5%;
+    .list2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    list-style-type: none;
+    }
+    .second{
+        font-size: 20px;
+        color:$second-color;
+    }
+
+}
+
